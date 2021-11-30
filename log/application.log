@@ -518,3 +518,4 @@
 2021-11-30 15:58:51	APPLICATION	Database   	Doctor                  	Edit            	doctor doctor doctor (DOCTOR)                     	{"ID":"23"}	:0
 2021-11-30 15:58:56	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
 2021-11-30 15:59:06	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 17:44:01	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"127.0.0.1"}	:0
