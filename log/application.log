@@ -343,3 +343,187 @@
 2021-11-25 13:10:46	APPLICATION	Database   	Doctor                  	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["DoctorID IN (1)"]}	:0
 2021-11-25 13:10:49	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
 2021-11-25 13:10:54	SECURITY   	Application	User                    	Sign in         	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 10:26:43	SECURITY   	Application	User                    	Sign in         	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 10:36:02	SECURITY   	Application	User                    	Sign out        	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 10:36:10	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-28 10:52:20	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-28 10:52:30	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-28 11:18:34	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"1"}	:0
+2021-11-28 11:19:54	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"2"}	:0
+2021-11-28 11:20:14	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"3"}	:0
+2021-11-28 11:22:03	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"4"}	:0
+2021-11-28 11:22:18	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"5"}	:0
+2021-11-28 11:22:34	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"6"}	:0
+2021-11-28 11:23:35	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"7"}	:0
+2021-11-28 11:24:41	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"8"}	:0
+2021-11-28 11:24:56	APPLICATION	Database   	Time                    	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["TimeID IN (1, 2, 3, 4, 5, 6, 7, 8)"]}	:0
+2021-11-28 11:25:49	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"9"}	:0
+2021-11-28 11:27:34	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"10"}	:0
+2021-11-28 11:28:01	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"11"}	:0
+2021-11-28 11:28:07	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"12"}	:0
+2021-11-28 11:29:51	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"13"}	:0
+2021-11-28 11:30:04	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"14"}	:0
+2021-11-28 11:31:36	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"15"}	:0
+2021-11-28 11:32:57	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"16"}	:0
+2021-11-28 11:35:05	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"17"}	:0
+2021-11-28 11:36:07	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"18"}	:0
+2021-11-28 11:36:15	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"19"}	:0
+2021-11-28 11:36:41	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"20"}	:0
+2021-11-28 11:37:35	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"21"}	:0
+2021-11-28 11:37:49	APPLICATION	Database   	Time                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"22"}	:0
+2021-11-28 11:40:54	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"22"}	:0
+2021-11-28 11:49:14	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"23"}	:0
+2021-11-28 11:49:40	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"24"}	:0
+2021-11-28 11:50:12	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-28 11:50:19	SECURITY   	Application	User                    	Sign in         	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 12:10:51	SECURITY   	Application	User                    	Sign out        	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 12:10:58	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-28 12:14:38	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-28 12:14:44	SECURITY   	Application	User                    	Sign in         	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 13:57:12	SECURITY   	Application	User                    	Sign in         	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 14:13:49	SECURITY   	Application	User                    	Sign out        	tanvir 01871752332 rafi (PATIENT)                 	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 14:13:57	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 14:45:50	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 14:54:51	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"1"}	:0
+2021-11-28 15:03:01	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"2"}	:0
+2021-11-28 15:03:18	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"3"}	:0
+2021-11-28 15:03:44	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"4"}	:0
+2021-11-28 15:04:08	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"5"}	:0
+2021-11-28 15:05:20	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 15:05:26	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 15:21:38	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"6"}	:0
+2021-11-28 15:22:56	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"7"}	:0
+2021-11-28 15:23:15	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"8"}	:0
+2021-11-28 15:33:17	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"9"}	:0
+2021-11-28 15:35:30	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"10"}	:0
+2021-11-28 15:36:42	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"11"}	:0
+2021-11-28 15:37:27	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"12"}	:0
+2021-11-28 15:37:32	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"13"}	:0
+2021-11-28 15:37:48	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"14"}	:0
+2021-11-28 15:46:25	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"15"}	:0
+2021-11-28 15:47:26	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"16"}	:0
+2021-11-28 15:48:07	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"17"}	:0
+2021-11-28 15:49:11	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"18"}	:0
+2021-11-28 15:50:29	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"19"}	:0
+2021-11-28 15:50:35	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"20"}	:0
+2021-11-28 15:51:24	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"21"}	:0
+2021-11-28 15:52:01	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"22"}	:0
+2021-11-28 15:52:23	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"23"}	:0
+2021-11-28 15:52:40	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"24"}	:0
+2021-11-28 15:53:04	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"25"}	:0
+2021-11-28 15:59:00	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 15:59:12	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-28 15:59:24	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"22"}	:0
+2021-11-28 15:59:31	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"22"}	:0
+2021-11-28 15:59:33	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-28 15:59:42	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 16:00:44	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"26"}	:0
+2021-11-28 16:23:42	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 16:27:30	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 16:27:40	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-28 16:27:55	APPLICATION	Database   	Doctor                  	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["DoctorID IN (22)"]}	:0
+2021-11-28 16:38:15	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"23"}	:0
+2021-11-28 16:38:17	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-28 16:38:22	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 16:41:47	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 16:41:56	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-28 16:42:11	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"23"}	:0
+2021-11-28 16:42:13	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-28 16:42:19	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 17:09:00	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"27"}	:0
+2021-11-28 17:40:28	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 17:42:25	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 17:42:32	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-28 17:44:29	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-28 17:47:06	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 10:48:27	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 11:06:43	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-29 11:06:49	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 12:02:32	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 12:02:39	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 12:03:10	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-29 12:03:18	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 12:05:07	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 12:05:14	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 12:05:21	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 12:06:21	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 12:17:37	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 12:18:35	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 12:21:31	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-29 12:22:37	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 12:22:42	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-29 12:22:48	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 12:40:02	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 12:40:15	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 13:48:13	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 13:51:06	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-29 13:51:17	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 13:55:26	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 13:55:48	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 14:08:25	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-29 14:08:36	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 14:41:41	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:12:56	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:18:41	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-29 15:18:52	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 15:18:59	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 15:19:08	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:24:17	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-29 15:30:37	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 15:31:25	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 15:31:38	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 15:32:18	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 15:33:14	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 15:33:22	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 15:35:14	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-29 15:35:21	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-29 15:35:37	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:35:45	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-29 15:35:53	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:36:58	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-29 15:37:06	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:38:05	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-29 15:38:12	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 15:53:14	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-29 15:53:26	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 16:43:18	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 17:43:15	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-29 17:51:20	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-30 11:59:41	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-30 11:59:59	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-30 12:00:09	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-30 12:00:33	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-30 12:00:42	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 12:03:18	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-30 12:03:29	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-30 12:03:50	APPLICATION	Database   	Doctor                  	Edit            	doctor doctor doctor (DOCTOR)                     	{"ID":"23"}	:0
+2021-11-30 12:03:56	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-30 12:04:07	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 12:04:23	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-30 12:09:29	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 12:09:34	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-30 12:09:47	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 13:36:25	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 15:20:48	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-30 15:41:41	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-30 15:41:48	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-30 15:46:43	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-30 15:46:49	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-30 15:56:49	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-30 15:57:02	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-11-30 15:58:11	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-11-30 15:58:20	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 15:58:28	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-11-30 15:58:39	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-11-30 15:58:51	APPLICATION	Database   	Doctor                  	Edit            	doctor doctor doctor (DOCTOR)                     	{"ID":"23"}	:0
+2021-11-30 15:58:56	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-11-30 15:59:06	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-11-30 17:44:01	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"127.0.0.1"}	:0
+2021-12-01 11:33:42	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-01 12:13:34	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-01 12:13:44	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-01 12:14:30	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-12-01 12:17:10	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-12-01 12:17:16	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-01 13:08:49	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-01 14:08:54	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0

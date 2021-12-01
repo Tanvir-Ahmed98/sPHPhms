@@ -9,6 +9,7 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 		new HTML\UI\Accordion\Item($Caption = "User group", null, $Application->URL("Management/Generic/UserGroup"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "UserGroup")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Doctors", null, $Application->URL("Management/Generic/DoctorInfo"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Department", null, $Application->URL("Management/Generic/Department"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Department")) . "", "{$Caption}", null, "{$Key}"),
+		// new HTML\UI\Accordion\Item($Caption = "Time", null, $Application->URL("Management/Generic/Time"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Time")) . "", "{$Caption}", null, "{$Key}"),
 	], "" . ($Caption = "Administration") . "", "{$Caption}", "{$Caption}", null, "{$PadKey}") : null,
 
 	$USR->UserGroupIdentifierHighest() == "CUSTOMER" ? new HTML\UI\Accordion\Pad([
@@ -16,9 +17,17 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 	]): null,
 
 
+
+
+	$USR->UserGroupIdentifierHighest() == "DOCTOR" ? new HTML\UI\Accordion\Pad([
+		new HTML\UI\Accordion\Item($Caption = "Doctor panel", null, $Application->URL("Management/Generic/DoctorInfo"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "DoctorInfo")) . "", "{$Caption}", null, "{$Key}"),
+		// new HTML\UI\Accordion\Item($Caption = "Take Appointment", null, $Application->URL("Management/Generic/Appointment"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
+	]): null,
+
+
 	$USR->UserGroupIdentifierHighest() == "PATIENT" ? new HTML\UI\Accordion\Pad([
-		new HTML\UI\Accordion\Item($Caption = "Take Appointment", null, $Application->URL("Management/Generic/Appointment"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Appointment")) . "", "{$Caption}", null, "{$Key}"),
-		new HTML\UI\Accordion\Item($Caption = "See Doctors", null, $Application->URL("Management/Generic/Doctor"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "Available Doctor", null, $Application->URL("Management/Generic/AvailableDoctor"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "AvailableDoctor")) . "", "{$Caption}", null, "{$Key}"),
+		// new HTML\UI\Accordion\Item($Caption = "Take Appointment", null, $Application->URL("Management/Generic/Appointment"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
 	]): null,
 
 	

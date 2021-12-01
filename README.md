@@ -1,1 +1,1 @@
-# hospital management system version 1
+# hrmanagement

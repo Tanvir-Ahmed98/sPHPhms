@@ -2,8 +2,8 @@
 	namespace sPHP; // Use framework namespace for shortcut to constants
 
     #region Reusable shortcut variable
-    $Name = "sPHP X UI Template";
-    $ShortName = "sPHPXUIT";
+    $Name = "Hospital Management System";
+    $ShortName = "sPHPhms";
     $Domain = $_SERVER["SERVER_NAME"];
 	$LocalHost = "127.0.0.1, ::1, LocalHost, 192.168.1.1, 192.168.1.10, 192.168.137.1";
     #endregion Reusable shortcut variable
@@ -72,6 +72,7 @@
 												"" . ($Entity = "Appointment") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "hms_"),
 												"" . ($Entity = "Doctor") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "hms_"),
 												"" . ($Entity = "Department") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "hms_"),
+												"" . ($Entity = "Time") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "hms_"),
 											],
 
 
@@ -81,7 +82,7 @@
 		"Stylesheet"					=>	[ // Array for multiple style sheets
 												"{$Environment->URL()}style/loader.css",
 												"{$Environment->URL()}style/test.css",
-												"{$Environment->URL()}style/3rdparty/font-awesome.min.css",
+												"{$Environment->URL()}style/3rdparty/fontawesome.min.css",
 												"{$Environment->URL()}style/3rdparty/bootstrap/bootstrap.min.css",
 												"{$Environment->URL()}style/3rdparty/bootstrap/bootstrap-table.min.css",
 											],

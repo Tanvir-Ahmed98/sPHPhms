@@ -14,6 +14,7 @@ $EM = new EntityManagement($Table[$Entity = "Department"]);
 // 			");
 // DebugDump($DCheck);
 // DebugDump($Table["Currency"]->Get());
+//git push test
 $EM->ImportField([
 	new Database\Field("{$Entity}" . ($Field = "Name") . "", "{$Field}"),
 	new Database\Field("{$Entity}Is" . ($Field = "Active") . "", "{$Field}"),
