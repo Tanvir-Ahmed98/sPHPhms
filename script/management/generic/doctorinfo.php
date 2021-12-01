@@ -59,6 +59,7 @@ $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
     new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "Department") . "Name", "{$Caption}", null),
+	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null):null,
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Time") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),
 	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Salary") . "", "{$Caption}", null):null,
@@ -148,10 +149,11 @@ if(isset($_POST["btnInput"])){
 	//comment
 	
 	$EM->InputUIHTML([
-		// HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
 		$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? 	HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LastName") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()):null,
 		$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ?  HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Email") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()):null,
 		$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? 	HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Department") . "ID",$Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()):null,
+		$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? 	HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID",$Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()):null,
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Time") . "", $EM->InputWidth(), null, null, INPUT_TYPE_TIME), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\DropdownMenu(DropdownMenuItem("hi",null,null,null),null), "Dropmenu", true, null, $EM->FieldCaptionWidth()),
         // HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Speciality") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),

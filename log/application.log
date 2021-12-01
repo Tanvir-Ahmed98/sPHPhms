@@ -529,3 +529,4 @@
 2021-12-01 14:08:54	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-12-01 16:06:19	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-12-01 16:20:50	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"127.0.0.1"}	:0
+2021-12-01 17:20:28	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"23"}	:0
