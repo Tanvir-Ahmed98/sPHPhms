@@ -1,1 +1,1 @@
-# hrmanagement
+# Hospital Management System
