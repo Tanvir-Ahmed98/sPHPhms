@@ -7,7 +7,6 @@ use sPHP\HTML\UI\DropdownMenu;
 //rafi
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "Doctor"]);
-
 // $DCheck = $DTB->Query("
 // 				SELECT      * FROM ab_person;
 // 				select * from sphp_user;
@@ -63,7 +62,7 @@ $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Time") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),
 	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Salary") . "", "{$Caption}", null):null,
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Birth") . "Date", "{$Caption}", FIELD_TYPE_SHORTDATE),
+	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Birth") . "Date", "{$Caption}", FIELD_TYPE_SHORTDATE):null,
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Active") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 ]);
 

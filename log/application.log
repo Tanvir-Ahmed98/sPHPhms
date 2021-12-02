@@ -530,3 +530,12 @@
 2021-12-01 16:06:19	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-12-01 16:20:50	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"127.0.0.1"}	:0
 2021-12-01 17:20:28	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"23"}	:0
+2021-12-01 17:21:35	APPLICATION	Database   	Doctor                  	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"23"}	:0
+2021-12-01 17:21:38	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-01 17:21:45	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-12-01 17:22:43	APPLICATION	Database   	Doctor                  	Edit            	doctor doctor doctor (DOCTOR)                     	{"ID":"23"}	:0
+2021-12-01 17:22:48	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-12-01 17:22:56	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-01 17:23:01	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-01 17:23:07	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-02 10:48:02	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
