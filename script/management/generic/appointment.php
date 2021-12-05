@@ -56,13 +56,10 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("{$Entity}First" . ($Caption = "Name") . "", "{$Caption}", null),
-	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
     new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "Doctor") . "LastName", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "DoctorTime") . "", "{$Caption}", null),
-	
-
-   
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Salary") . "", "{$Caption}", null),
 	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Birth") . "Date", "{$Caption}", FIELD_TYPE_SHORTDATE),
@@ -155,7 +152,6 @@ if(isset($_POST["btnInput"])){
 	$EM->InputUIHTML([
 		HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), $User->Name(), true,null,null,null,null,null,null,null,null,true), "{$Caption}",null,  null, $EM->FieldCaptionWidth()),
         HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Email") . "", $EM->InputWidth(), $User->Email(), null,null,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
-		
 		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "") . "DoctorID", $EM->InputWidth(), null, null, INPUT_TYPE_HIDDEN), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\DropdownMenu(DropdownMenuItem("hi",null,null,null),null), "Dropmenu", true, null, $EM->FieldCaptionWidth()),
         // HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Speciality") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),

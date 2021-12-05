@@ -236,3 +236,128 @@ Stack trace:
 [30-Nov-2021 15:49:43 Asia/Dhaka] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 195
 [30-Nov-2021 15:49:54 Asia/Dhaka] PHP Parse error:  Unmatched '}' in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 195
 [01-Dec-2021 14:25:26 Asia/Dhaka] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\sPHPhms\script\home.php on line 3
+[05-Dec-2021 12:24:40 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::DoctorID() in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php:52
+Stack trace:
+#0 C:\xampp\htdocs\sPHP\private_function.php(73): require()
+#1 C:\xampp\htdocs\sPHP\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 52
+[05-Dec-2021 12:27:46 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 172
+[05-Dec-2021 12:28:19 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '() 
+ORDER BY DoctorFirstName ASC 
+LIMIT 0, 200' at line 11 in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:28:19 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '() 
+ORDER BY DoctorFirstName ASC 
+LIMIT 0, 200' at line 11 in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:28:29 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:28:29 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ID' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:28:51 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:28:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:29:38 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 172
+[05-Dec-2021 12:29:54 Asia/Dhaka] PHP Parse error:  syntax error, unexpected token "=", expecting "]" in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 172
+[05-Dec-2021 12:29:54 Asia/Dhaka] PHP Parse error:  syntax error, unexpected token "=", expecting "]" in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 172
+[05-Dec-2021 12:31:08 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:31:08 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserID' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 12:33:23 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::DoctorID() in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php:169
+Stack trace:
+#0 C:\xampp\htdocs\sPHP\private_function.php(73): require()
+#1 C:\xampp\htdocs\sPHP\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 169
+[05-Dec-2021 12:34:05 Asia/Dhaka] User error: Undefined variable $DOR in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 169
+[05-Dec-2021 12:34:21 Asia/Dhaka] User error: Undefined variable $DOCTOR in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 169
+[05-Dec-2021 12:34:22 Asia/Dhaka] User error: Undefined variable $DOCTOR in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 169
+[05-Dec-2021 12:37:57 Asia/Dhaka] User error: Undefined variable $debugdump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:37:58 Asia/Dhaka] User error: Undefined variable $debugdump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:38:13 Asia/Dhaka] User error: Undefined variable $debug_dump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:38:13 Asia/Dhaka] User error: Undefined variable $debug_dump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:38:21 Asia/Dhaka] User error: Undefined variable $debugdump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:38:21 Asia/Dhaka] User error: Undefined variable $debugdump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:39:07 Asia/Dhaka] User error: Undefined variable $DebugDump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:39:07 Asia/Dhaka] User error: Undefined variable $DebugDump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:39:09 Asia/Dhaka] User error: Undefined variable $DebugDump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:39:09 Asia/Dhaka] User error: Undefined variable $DebugDump in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 178
+[05-Dec-2021 12:39:31 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\sPHP\class.php on line 3599
+[05-Dec-2021 12:39:31 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[05-Dec-2021 12:39:32 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in C:\xampp\htdocs\sPHP\class.php on line 3599
+[05-Dec-2021 12:39:32 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0
+[05-Dec-2021 12:39:39 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\sPHP\class.php on line 3598
+[05-Dec-2021 12:39:39 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\xampp\htdocs\sPHP\class.php on line 1115
+[05-Dec-2021 13:22:06 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:23:33 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:23:33 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:24:16 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:24:47 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:24:48 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:25:10 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:25:11 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:26:28 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:26:49 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:27:27 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:28:51 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:28:51 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:29:06 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:29:07 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 13:29:30 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:05:57 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:07:17 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:09:36 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:09:36 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:22:26 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:23:29 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:23:31 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:46:26 Asia/Dhaka] User error: Undefined array key "UserSignIn" in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 154
+[05-Dec-2021 14:48:53 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:49:17 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:50:17 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:50:34 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:50:40 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:51:12 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:52:16 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 14:54:12 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:09:06 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:17:40 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:18:18 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:18:18 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserGroupName' in 'where clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:27:24 Asia/Dhaka] User error: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'DoctorFirstName' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:28:34 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'D.DoctorFirstName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:29:05 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'D.DoctorFirstName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:29:56 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'D.DoctorFirstName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:30:41 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'D.ID' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:31:02 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DoctorFirstName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:32:13 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'SignInName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:46:01 Asia/Dhaka] User error: Undefined property: sPHP\User::$UserID in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 176
+[05-Dec-2021 15:46:01 Asia/Dhaka] User error: Undefined property: sPHP\User::$UserID in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 176
+[05-Dec-2021 15:46:09 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:47:33 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 176
+[05-Dec-2021 15:47:33 Asia/Dhaka] User error: Undefined property: sPHP\User::$ID in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 176
+[05-Dec-2021 15:47:59 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:48:00 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:50:29 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserID' in where clause is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:55:20 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DoctorFirstName' in 'order clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:56:30 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DoctorFirstName' in 'order clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 15:57:04 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DoctorLastName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 16:00:19 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DoctorLastName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 16:01:01 Asia/Dhaka] User error: Undefined array key "DoctorLastName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 16:02:46 Asia/Dhaka] User error: Undefined array key "DoctorLastName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 16:02:54 Asia/Dhaka] User error: Undefined array key "DoctorLastName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 16:09:20 Asia/Dhaka] User error: Undefined array key "DoctorLastName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 16:10:01 Asia/Dhaka] User error: Undefined array key "DoctorLastName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 16:19:16 Asia/Dhaka] User error: Undefined array key "UserEmail" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 16:26:43 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::LastName() in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php:155
+Stack trace:
+#0 C:\xampp\htdocs\sPHP\private_function.php(73): require()
+#1 C:\xampp\htdocs\sPHP\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 155
+[05-Dec-2021 16:26:49 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined method sPHP\User::LastName() in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php:155
+Stack trace:
+#0 C:\xampp\htdocs\sPHP\private_function.php(73): require()
+#1 C:\xampp\htdocs\sPHP\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 155
+[05-Dec-2021 17:24:31 Asia/Dhaka] User error: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'DoctorFirstName' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197

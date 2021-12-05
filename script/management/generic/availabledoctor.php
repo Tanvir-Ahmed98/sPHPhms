@@ -7,7 +7,7 @@ use sPHP\HTML\UI\DropdownMenu;
 
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "Doctor"]);
-
+DebugDump($EM);
 // $DCheck = $DTB->Query("
 // 				SELECT      * FROM ab_person;
 // 				select * from sphp_user;
@@ -20,7 +20,7 @@ $EM->ImportField([
 ]);
 
 $EM->InputValidation([
-	new HTTP\InputValidation("{$Entity}FirstName", true),
+	// new HTTP\InputValidation("{$Entity}FirstName",true),
 	
 	// new HTTP\InputValidation("{$Entity}Note", null),
 	new HTTP\InputValidation("{$Entity}IsActive", null, VALIDATION_TYPE_INTEGER),
@@ -55,12 +55,11 @@ $EM->IntermediateEntity("xCategory, xEvent");
 $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
-	new HTML\UI\Datagrid\Column("{$Entity}First" . ($Caption = "Name") . "", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "First") . "Name", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Last") . "Name", "{$Caption}", null),
     new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "Department") . "Name", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Time") . "", "{$Caption}", null),
-   
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Salary") . "", "{$Caption}", null),
 	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Birth") . "Date", "{$Caption}", FIELD_TYPE_SHORTDATE),
@@ -85,7 +84,7 @@ $EM->BatchActionHTML([
 	// HTML\UI\Button("<img src=\"{$Environment->IconURL()}report.png\" alt=\"Installation report\" class=\"Icon\">Installation report", BUTTON_TYPE_SUBMIT, "btn{$Entity}ReportInstallation", true),
 ]);
 
-$EM->OrderBy("{$Entity}FirstName");
+$EM->OrderBy("{$Entity}ID");
 $EM->Order("ASC");
 $EM->URL($Application->URL($_POST["_Script"]));
 $EM->IconURL($Environment->IconURL());

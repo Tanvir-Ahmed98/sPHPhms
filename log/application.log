@@ -541,3 +541,113 @@
 2021-12-02 10:48:02	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
 2021-12-02 11:39:15	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
 2021-12-02 12:28:50	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-02 14:25:37	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-02 15:19:53	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 12:05:14	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 12:06:16	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"25"}	:0
+2021-12-05 12:06:31	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 12:06:39	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:07:02	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-12-05 12:07:20	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"Remon@gmail.com","IP":"::1"}	:0
+2021-12-05 12:07:30	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 12:08:47	APPLICATION	Database   	User                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"988"}	:0
+2021-12-05 12:08:54	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 12:09:20	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"Remon@gmail.com","IP":"::1"}	:0
+2021-12-05 12:09:27	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:09:35	SECURITY   	Application	User                    	Sign out        	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"}}	:0
+2021-12-05 12:09:58	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:10:42	SECURITY   	Application	User                    	Sign out        	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"}}	:0
+2021-12-05 12:10:57	SECURITY   	Application	User                    	Sign in         	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:11:34	APPLICATION	Database   	Appointment             	Add new         	tanvir Ahmed Rafi (PATIENT)                       	{"ID":"28"}	:0
+2021-12-05 12:12:28	SECURITY   	Application	User                    	Sign out        	tanvir Ahmed Rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-05 12:13:06	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:13:16	APPLICATION	Database   	Doctor                  	Remove          	doctor doctor doctor (DOCTOR)                     	{"WhereClause":["DoctorID IN (23)"]}	:0
+2021-12-05 12:13:30	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-12-05 12:13:48	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"remon@gmail.com","IP":"::1"}	:0
+2021-12-05 12:13:55	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"Remon@gmail.com","IP":"::1"}	:0
+2021-12-05 12:14:03	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:14:19	SECURITY   	Application	User                    	Sign out        	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"}}	:0
+2021-12-05 12:14:28	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 12:15:23	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"26"}	:0
+2021-12-05 12:16:08	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 12:16:15	SECURITY   	Application	User                    	Sign in         	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"},"IP":"::1"}	:0
+2021-12-05 12:16:28	SECURITY   	Application	User                    	Sign out        	doctor doctor doctor (DOCTOR)                     	{"User":{"Email":"doctor@gmail.com"}}	:0
+2021-12-05 12:16:41	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 12:22:09	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 12:22:48	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 13:18:25	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 13:25:15	SECURITY   	Application	User                    	Sign out        	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"}}	:0
+2021-12-05 13:26:24	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 14:05:47	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 14:25:25	SECURITY   	Application	User                    	Sign out        	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"}}	:0
+2021-12-05 14:25:36	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 14:26:15	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"27"}	:0
+2021-12-05 14:26:19	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 14:26:25	SECURITY   	Application	User                    	Sign in         	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 14:27:22	SECURITY   	Application	User                    	Sign out        	Remon Shill Shill (DOCTOR)                        	{"User":{"Email":"Remon@gmail.com"}}	:0
+2021-12-05 14:27:29	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 15:19:54	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"28"}	:0
+2021-12-05 15:21:04	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"29"}	:0
+2021-12-05 15:21:32	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"30"}	:0
+2021-12-05 15:21:39	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"31"}	:0
+2021-12-05 15:24:21	APPLICATION	Database   	Doctor                  	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["DoctorID IN (31)"]}	:0
+2021-12-05 15:24:47	APPLICATION	Database   	User                    	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["UserID IN (986, 13, 3, 8, 14)"]}	:0
+2021-12-05 15:34:50	APPLICATION	Database   	User                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"989"}	:0
+2021-12-05 15:35:08	APPLICATION	Database   	User                    	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"989"}	:0
+2021-12-05 15:35:24	APPLICATION	Database   	User                    	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"989"}	:0
+2021-12-05 15:35:38	APPLICATION	Database   	User                    	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"989"}	:0
+2021-12-05 15:35:56	APPLICATION	Database   	User                    	Edit            	System Administrator (ADMINISTRATOR)              	{"ID":"989"}	:0
+2021-12-05 15:41:02	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"32"}	:0
+2021-12-05 15:41:29	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 15:41:39	SECURITY   	Application	User                    	Sign in         	Remon    Shill Shill (DOCTOR)                     	{"User":{"Email":"remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 15:41:57	SECURITY   	Application	User                    	Sign out        	Remon    Shill Shill (DOCTOR)                     	{"User":{"Email":"remon@gmail.com"}}	:0
+2021-12-05 15:42:34	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 15:43:54	APPLICATION	Database   	User                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"990"}	:0
+2021-12-05 15:44:22	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"33"}	:0
+2021-12-05 15:44:26	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 15:44:47	SECURITY   	Application	User                    	Sign in         	Abu Tabil Jeehad (DOCTOR)                         	{"User":{"Email":"jeehad@gmail.com"},"IP":"::1"}	:0
+2021-12-05 15:52:42	SECURITY   	Application	User                    	Sign out        	Abu Tabil Jeehad (DOCTOR)                         	{"User":{"Email":"jeehad@gmail.com"}}	:0
+2021-12-05 15:52:57	SECURITY   	Application	User                    	Sign in         	Remon    Shill Shill (DOCTOR)                     	{"User":{"Email":"remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 15:53:06	SECURITY   	Application	User                    	Sign out        	Remon    Shill Shill (DOCTOR)                     	{"User":{"Email":"remon@gmail.com"}}	:0
+2021-12-05 15:53:11	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"tanvir@gmail.com","IP":"::1"}	:0
+2021-12-05 15:53:17	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"tanvir@gmail.com","IP":"::1"}	:0
+2021-12-05 15:53:59	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 15:54:44	APPLICATION	Database   	User                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"991"}	:0
+2021-12-05 15:54:55	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 15:55:01	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"tanvir@gmail.com","IP":"::1"}	:0
+2021-12-05 15:55:13	SECURITY   	Application	User                    	Sign in         	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-05 16:01:01	APPLICATION	Database   	Appointment             	Add new         	tanvir ahmed rafi (PATIENT)                       	{"ID":"29"}	:0
+2021-12-05 16:02:46	APPLICATION	Database   	Appointment             	Add new         	tanvir ahmed rafi (PATIENT)                       	{"ID":"30"}	:0
+2021-12-05 16:11:53	APPLICATION	Database   	Appointment             	Add new         	tanvir ahmed rafi (PATIENT)                       	{"ID":"31"}	:0
+2021-12-05 16:15:23	APPLICATION	Database   	Appointment             	Add new         	tanvir ahmed rafi (PATIENT)                       	{"ID":"32"}	:0
+2021-12-05 16:15:49	SECURITY   	Application	User                    	Sign out        	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-05 16:16:03	SECURITY   	Application	User                    	Sign in         	Authentication failed                             	{"Email":"doctor@gmail.com","IP":"::1"}	:0
+2021-12-05 16:16:08	SECURITY   	Application	User                    	Sign in         	Remon    Shill Shill (DOCTOR)                     	{"User":{"Email":"remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 16:21:25	SECURITY   	Application	User                    	Sign out        	Remon    Shill Shill (DOCTOR)                     	{"User":{"Email":"remon@gmail.com"}}	:0
+2021-12-05 16:21:51	SECURITY   	Application	User                    	Sign in         	Abu Tabil Jeehad (DOCTOR)                         	{"User":{"Email":"jeehad@gmail.com"},"IP":"::1"}	:0
+2021-12-05 16:23:18	SECURITY   	Application	User                    	Sign out        	Abu Tabil Jeehad (DOCTOR)                         	{"User":{"Email":"jeehad@gmail.com"}}	:0
+2021-12-05 16:23:25	SECURITY   	Application	User                    	Sign in         	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-05 16:24:27	SECURITY   	Application	User                    	Sign out        	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-05 16:24:33	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 16:28:49	APPLICATION	Database   	User                    	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["UserID IN (989)"]}	:0
+2021-12-05 16:28:54	APPLICATION	Database   	User                    	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["UserID IN (990)"]}	:0
+2021-12-05 16:29:19	APPLICATION	Database   	User                    	Remove          	System Administrator (ADMINISTRATOR)              	{"WhereClause":["UserID IN (990)"]}	:0
+2021-12-05 16:30:30	APPLICATION	Database   	User                    	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"992"}	:0
+2021-12-05 16:31:16	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"34"}	:0
+2021-12-05 16:38:27	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"35"}	:0
+2021-12-05 16:39:12	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"36"}	:0
+2021-12-05 16:39:19	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 16:39:25	SECURITY   	Application	User                    	Sign in         	Remon shill (DOCTOR)                              	{"User":{"Email":"remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 16:45:18	SECURITY   	Application	User                    	Sign out        	Remon shill (DOCTOR)                              	{"User":{"Email":"remon@gmail.com"}}	:0
+2021-12-05 16:46:12	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 16:55:23	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 16:55:31	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 16:59:15	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 16:59:25	SECURITY   	Application	User                    	Sign in         	Remon shill (DOCTOR)                              	{"User":{"Email":"remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 16:59:44	APPLICATION	Database   	Doctor                  	Remove          	Remon shill (DOCTOR)                              	{"WhereClause":["DoctorID IN (36)"]}	:0
+2021-12-05 16:59:48	APPLICATION	Database   	Doctor                  	Remove          	Remon shill (DOCTOR)                              	{"WhereClause":["DoctorID IN (35)"]}	:0
+2021-12-05 17:00:08	SECURITY   	Application	User                    	Sign out        	Remon shill (DOCTOR)                              	{"User":{"Email":"remon@gmail.com"}}	:0
+2021-12-05 17:00:16	SECURITY   	Application	User                    	Sign in         	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-05 17:09:13	APPLICATION	Database   	Appointment             	Add new         	tanvir ahmed rafi (PATIENT)                       	{"ID":"33"}	:0
+2021-12-05 17:27:48	SECURITY   	Application	User                    	Sign out        	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-05 17:30:57	SECURITY   	Application	User                    	Sign in         	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
