@@ -361,3 +361,6 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\sPHPhms\script\management\generic\doctorinfo.php on line 155
 [05-Dec-2021 17:24:31 Asia/Dhaka] User error: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'DoctorFirstName' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 17:51:22 Asia/Dhaka] User error: Undefined array key "UserSignInName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[05-Dec-2021 17:53:22 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserSingInName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[05-Dec-2021 17:53:57 Asia/Dhaka] User error: Undefined array key "UserEmail" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447

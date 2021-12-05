@@ -1,5 +1,5 @@
 SELECT			{ALIAS}.*, 
-				CONCAT({ALIAS}.DoctorID, '') AS {ENTITY}LookupCaption,DepartmentName,GenderName, 
+				CONCAT({ALIAS}.DoctorID, '') AS {ENTITY}LookupCaption,DepartmentName,GenderName,UserSignInName,UserEmail, 
 				'' AS _Other
 
 FROM			{PREFIX}{NAME} AS {ALIAS}

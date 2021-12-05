@@ -55,7 +55,7 @@ $EM->IntermediateEntity("xCategory, xEvent");
 $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "First") . "Name", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("" . ($Caption = "User") . "SignInName", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Last") . "Name", "{$Caption}", null),
     new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "Department") . "Name", "{$Caption}", null),

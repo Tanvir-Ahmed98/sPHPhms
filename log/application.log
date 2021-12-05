@@ -651,3 +651,18 @@
 2021-12-05 17:09:13	APPLICATION	Database   	Appointment             	Add new         	tanvir ahmed rafi (PATIENT)                       	{"ID":"33"}	:0
 2021-12-05 17:27:48	SECURITY   	Application	User                    	Sign out        	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
 2021-12-05 17:30:57	SECURITY   	Application	User                    	Sign in         	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0
+2021-12-05 17:37:30	SECURITY   	Application	User                    	Sign out        	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"}}	:0
+2021-12-05 17:37:38	SECURITY   	Application	User                    	Sign in         	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"},"IP":"::1"}	:0
+2021-12-05 17:41:22	APPLICATION	Database   	Department              	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"3"}	:0
+2021-12-05 17:47:21	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"37"}	:0
+2021-12-05 17:49:22	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"38"}	:0
+2021-12-05 17:50:56	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"39"}	:0
+2021-12-05 17:51:00	APPLICATION	Database   	Doctor                  	Add new         	System Administrator (ADMINISTRATOR)              	{"ID":"40"}	:0
+2021-12-05 17:51:10	SECURITY   	Application	User                    	Sign out        	System Administrator (ADMINISTRATOR)              	{"User":{"Email":"Administrator@System.Dom"}}	:0
+2021-12-05 17:51:18	SECURITY   	Application	User                    	Sign in         	Remon shill (DOCTOR)                              	{"User":{"Email":"remon@gmail.com"},"IP":"::1"}	:0
+2021-12-05 17:54:36	APPLICATION	Database   	Doctor                  	Remove          	Remon shill (DOCTOR)                              	{"WhereClause":["DoctorID IN (40)"]}	:0
+2021-12-05 17:54:40	APPLICATION	Database   	Doctor                  	Remove          	Remon shill (DOCTOR)                              	{"WhereClause":["DoctorID IN (39)"]}	:0
+2021-12-05 17:54:43	APPLICATION	Database   	Doctor                  	Remove          	Remon shill (DOCTOR)                              	{"WhereClause":["DoctorID IN (38)"]}	:0
+2021-12-05 17:54:46	APPLICATION	Database   	Doctor                  	Remove          	Remon shill (DOCTOR)                              	{"WhereClause":["DoctorID IN (37)"]}	:0
+2021-12-05 17:54:50	SECURITY   	Application	User                    	Sign out        	Remon shill (DOCTOR)                              	{"User":{"Email":"remon@gmail.com"}}	:0
+2021-12-05 17:54:56	SECURITY   	Application	User                    	Sign in         	tanvir ahmed rafi (PATIENT)                       	{"User":{"Email":"tanvir@gmail.com"},"IP":"::1"}	:0

@@ -172,7 +172,9 @@ if(isset($_POST["btnInput"])){
 $id= $USR->ID();
 #region List
 $EM->SearchSQL([
-	"D.UserID=$id", // Custom fixed search condition
+	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ?"1=1":null,
+	$USR->UserGroupIdentifierHighest() == "PATIENT" ?"1=1":null,
+	$USR->UserGroupIdentifierHighest() == "DOCTOR" ? "D.UserID=$id":null, // Custom fixed search condition
 	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}FirstName") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}LastName") . "", SetVariable($Column)) ? "{$Table["{$Entity}"]->Alias()}.{$Column} LIKE '%{$Database->Escape($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"])}%'" : null,
 	SetVariable("{$Configuration["SearchInputPrefix"]}" . ($Column = "{$Entity}IsActive") . "", SetVariable($Column, "")) !== "" ? "{$Table["{$Entity}"]->Alias()}.{$Column} = " . intval($_POST["{$Configuration["SearchInputPrefix"]}{$Column}"]) . "" : null,

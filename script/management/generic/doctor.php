@@ -41,9 +41,7 @@ $EM->ValidateInput(function($Entity, $Database, $Table, $PrimaryKey, $ID){
 
 	return $Result;
 });
-
 $EM->ThumbnailColumn("x{$Entity}Picture");
-
 $EM->BeforeInput(function($Entity, $Record){
 	//$_POST[$Field = "{$Entity}PasswordHash"] = strlen($_POST["{$Entity}Password"]) ? md5($_POST["{$Entity}Password"]) : (is_null($Record) ? null : $Record["{$Field}"]);
 
@@ -57,8 +55,6 @@ $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("{$Entity}First" . ($Caption = "Name") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "Department") . "Name", "{$Caption}", null),
-	
-	
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Birth") . "Date", "{$Caption}", FIELD_TYPE_SHORTDATE),
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Active") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 ]);
