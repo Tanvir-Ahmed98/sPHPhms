@@ -7,8 +7,9 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 	$User->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Accordion\Pad([
 		new HTML\UI\Accordion\Item($Caption = "User", null, $Application->URL("Management/Generic/{$Caption}"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "User")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "User group", null, $Application->URL("Management/Generic/UserGroup"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "UserGroup")) . "", "{$Caption}", null, "{$Key}"),
-		new HTML\UI\Accordion\Item($Caption = "Doctor", null, $Application->URL("Management/Generic/DoctorInfo"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "Doctor Information", null, $Application->URL("Management/Generic/DoctorInfo"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
 		new HTML\UI\Accordion\Item($Caption = "Department", null, $Application->URL("Management/Generic/Department"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Department")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "List Of Appointments", null, $Application->URL("Management/Generic/Appointment"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Appointment")) . "", "{$Caption}", null, "{$Key}"),
 		// new HTML\UI\Accordion\Item($Caption = "Time", null, $Application->URL("Management/Generic/Time"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Time")) . "", "{$Caption}", null, "{$Key}"),
 	], "" . ($Caption = "Administration") . "", "{$Caption}", "{$Caption}", null, "{$PadKey}") : null,
 
@@ -27,6 +28,7 @@ $LeftPanelLinkHTML[] = HTML\UI\Accordion("LeftPanelNavigation", [
 
 	$USR->UserGroupIdentifierHighest() == "PATIENT" ? new HTML\UI\Accordion\Pad([
 		new HTML\UI\Accordion\Item($Caption = "Available Doctor", null, $Application->URL("Management/Generic/AvailableDoctor"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "AvailableDoctor")) . "", "{$Caption}", null, "{$Key}"),
+		new HTML\UI\Accordion\Item($Caption = "List Of Appointments", null, $Application->URL("Management/Generic/Appointment"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Appointment")) . "", "{$Caption}", null, "{$Key}"),
 		// new HTML\UI\Accordion\Item($Caption = "Take Appointment", null, $Application->URL("Management/Generic/Appointment"), null, null, "" . strtolower("" . ($PadKey = "Administration") . "_" . ($Key = "Doctor")) . "", "{$Caption}", null, "{$Key}"),
 	]): null,
 

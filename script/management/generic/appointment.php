@@ -3,8 +3,6 @@
 
 namespace sPHP;
 
-
-
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "Appointment"]);
 
@@ -55,10 +53,12 @@ $EM->IntermediateEntity("xCategory, xEvent");
 $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
+	// new HTML\UI\Datagrid\Column("{$Entity}First" . ($Caption = "Name") . "", "{$Caption}", null),
+	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
+    // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
+	// new HTML\UI\Datagrid\Column("" . ($Caption = "Doctor") . "LastName", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}First" . ($Caption = "Name") . "", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
-    new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("" . ($Caption = "Doctor") . "LastName", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("". ($Caption = "User") . "SignInName", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "DoctorTime") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Salary") . "", "{$Caption}", null),
@@ -70,7 +70,7 @@ $EM->Action([
 	//new HTML\UI\Datagrid\Action("{$Environment->IconURL()}{$Entity}" . strtolower($ActionEntity = "CommercialInvoice") . ".png", null, $Application->URL("{$Entity}/{$ActionEntity}"), "_blank", null, null, "Commercial invoice"),
 	// new HTML\UI\Datagrid\Action("{$Environment->IconURL()}report.png", null, $Application->URL("Management/generic/personaddress", "btnReport"), null, null, null, "Report"),
 	// new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"),
-	// new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"),
+	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to cancel your appointment?');", null, "Delete"),
 	// new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL("
 	// Management/Generic/app"), null, null, null, "TakeAppointment"),
 ]);
@@ -78,7 +78,7 @@ $EM->Action([
 $EM->BatchActionHTML([
 	HTML\UI\Button("<img src=\"{$Environment->IconURL()}search.png\" alt=\"Search\" class=\"Icon\">Search", BUTTON_TYPE_SUBMIT, "btnSearch", true),
 	// HTML\UI\Button("<img src=\"{$Environment->IconURL()}add.png\" alt=\"Add new\" class=\"Icon\">Add new", BUTTON_TYPE_SUBMIT, "btnInput", true),
-	// HTML\UI\Button("<img src=\"{$Environment->IconURL()}delete.png\" alt=\"Remove\" class=\"Icon\">Remove", BUTTON_TYPE_SUBMIT, "btnDelete", true, "return confirm('Are you sure to remove the information?');"),
+	HTML\UI\Button("<img src=\"{$Environment->IconURL()}delete.png\" alt=\"Remove\" class=\"Icon\">Remove", BUTTON_TYPE_SUBMIT, "btnDelete", true, "return confirm('Are you sure to cancel your appointment?');"),
 	// HTML\UI\Button("<img src=\"{$Environment->IconURL()}export.png\" alt=\"Export\" class=\"Icon\">Export", BUTTON_TYPE_SUBMIT, "btnExport", true),
 	// HTML\UI\Button("<img src=\"{$Environment->IconURL()}import.png\" alt=\"Import\" class=\"Icon\">Import", BUTTON_TYPE_SUBMIT, "btnImport", true),
 	// HTML\UI\Button("<img src=\"{$Environment->IconURL()}report.png\" alt=\"Installation report\" class=\"Icon\">Installation report", BUTTON_TYPE_SUBMIT, "btn{$Entity}ReportInstallation", true),
@@ -153,6 +153,7 @@ if(isset($_POST["btnInput"])){
 		HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), $User->Name(), true,null,null,null,null,null,null,null,null,true), "{$Caption}",null,  null, $EM->FieldCaptionWidth()),
         HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Email") . "", $EM->InputWidth(), $User->Email(), null,null,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "") . "DoctorID", $EM->InputWidth(), null, null, INPUT_TYPE_HIDDEN), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Input("" . ($Caption = "") . "UserID", $EM->InputWidth(), null, null, INPUT_TYPE_HIDDEN), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		//HTML\UI\Field(HTML\UI\DropdownMenu(DropdownMenuItem("hi",null,null,null),null), "Dropmenu", true, null, $EM->FieldCaptionWidth()),
         // HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Speciality") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
         // HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Salary") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),

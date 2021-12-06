@@ -7,7 +7,7 @@ use sPHP\HTML\UI\DropdownMenu;
 
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "Doctor"]);
-DebugDump($EM);
+// DebugDump($EM);
 // $DCheck = $DTB->Query("
 // 				SELECT      * FROM ab_person;
 // 				select * from sphp_user;
@@ -56,8 +56,8 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("" . ($Caption = "User") . "SignInName", "{$Caption}", null),
-	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Last") . "Name", "{$Caption}", null),
-    new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
+	// new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Last") . "Name", "{$Caption}", null),
+    // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("" . ($Caption = "Department") . "Name", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Time") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),

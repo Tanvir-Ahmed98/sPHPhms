@@ -19,7 +19,7 @@ $EM->ImportField([
 ]);
 
 $EM->InputValidation([
-	new HTTP\InputValidation("{$Entity}Salary", true),
+	// new HTTP\InputValidation("{$Entity}Salary", true),
 	// new HTTP\InputValidation("{$Entity}Note", null),
 	new HTTP\InputValidation("{$Entity}IsActive", null, VALIDATION_TYPE_INTEGER),
 ]);
@@ -53,11 +53,12 @@ $EM->IntermediateEntity("xCategory, xEvent");
 $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 
 $EM->ListColumn([
-	$USR->UserGroupIdentifierHighest() == "DOCTOR" ?	new HTML\UI\Datagrid\Column("" . ($Caption = "User") . "SignInName", "{$Caption}", null):null,
-	$USR->UserGroupIdentifierHighest() == "DOCTOR" ?    new HTML\UI\Datagrid\Column("". ($Caption = "User") . "Email", "{$Caption}", null):null,
+	$USR->UserGroupIdentifierHighest() == "DOCTOR" ?	new HTML\UI\Datagrid\Column("" . ($Caption = "UserSignInName") . "", "{$Caption}", null):null,
+	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ?	new HTML\UI\Datagrid\Column("" . ($Caption = "UserSignInName") . "", "{$Caption}", null):null,
+	$USR->UserGroupIdentifierHighest() == "DOCTOR" ?    new HTML\UI\Datagrid\Column("". ($Caption = "UserEmail") . "", "{$Caption}", null):null,
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("" . ($Caption = "Department") . "Name", "{$Caption}", null):null,
-	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null):null,
+	// $USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null):null,
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Time") . "", "{$Caption}", null),
     // new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Speciality") . "", "{$Caption}", null),
 	$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ? new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Salary") . "", "{$Caption}", null):null,
@@ -148,7 +149,7 @@ if(isset($_POST["btnInput"])){
 	
 	$EM->InputUIHTML([
 		// HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
-		$USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ?	HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), $User->Name(), true,null,null,null,null,null,null,null,null,true), "{$Caption}",null,  null, $EM->FieldCaptionWidth()):null,
+		// $USR->UserGroupIdentifierHighest() == "ADMINISTRATOR" ?	HTML\UI\Field(HTML\UI\Input("{$Entity}First" . ($Caption = "Name") . "", $EM->InputWidth(), $User->Name(), true,null,null,null,null,null,null,null,null,true), "{$Caption}",null,  null, $EM->FieldCaptionWidth()):null,
         // HTML\UI\Field(HTML\UI\Input("{$Entity}Last" . ($Caption = "Name") . "", $EM->InputWidth(), $User->LastName(), null,null,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "User") . "ID",$Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		// $USR->UserGroupIdentifierHighest() == "DOCTOR" ?  HTML\UI\Field(HTML\UI\Input("" . ($Caption = "ID") . "", $EM->InputWidth(), $USR->ID(), null,null,null,null,null,null,null,null,null,true), "{$Caption}", true, null, $EM->FieldCaptionWidth()):null,

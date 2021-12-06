@@ -364,3 +364,22 @@ Stack trace:
 [05-Dec-2021 17:51:22 Asia/Dhaka] User error: Undefined array key "UserSignInName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
 [05-Dec-2021 17:53:22 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserSingInName' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
 [05-Dec-2021 17:53:57 Asia/Dhaka] User error: Undefined array key "UserEmail" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[06-Dec-2021 11:13:23 Asia/Dhaka] User error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sphpdefault.hms_user' doesn't exist in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 11:13:39 Asia/Dhaka] User error: Undefined array key "DoctorLastName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[06-Dec-2021 11:15:25 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Undefined constant "sPHP\Doctor" in C:\xampp\htdocs\sPHPhms\script\management\generic\appointment.php:62
+Stack trace:
+#0 C:\xampp\htdocs\sPHP\private_function.php(73): require()
+#1 C:\xampp\htdocs\sPHP\class.php(1653): sPHP\___ExecuteApplicationScript(Object(sPHP\Application), Object(sPHP\Template), Array)
+#2 [internal function]: sPHP\Application->__destruct()
+#3 {main}
+  thrown in C:\xampp\htdocs\sPHPhms\script\management\generic\appointment.php on line 62
+[06-Dec-2021 11:23:52 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DoctorDepartment' in 'field list' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 13:01:33 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT			A.*, 
+				CONCAT(A.DoctorID, '') AS AppointmentLookupCaption,Departm...' at line 8 in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 13:49:02 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'CONCAT' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 13:49:18 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserSignInName' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 14:11:07 Asia/Dhaka] User error: SQLSTATE[42000]: Syntax error or access violation: 1583 Incorrect parameters in the call to native function 'CONCAT' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 14:11:37 Asia/Dhaka] User error: Undefined array key "UserSignInName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[06-Dec-2021 14:13:58 Asia/Dhaka] User error: Undefined array key "UserSignInName" in C:\xampp\htdocs\sPHP\library\object\html\ui\datagrid.php on line 447
+[06-Dec-2021 14:15:40 Asia/Dhaka] User error: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'UserSignInName' in field list is ambiguous in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
+[06-Dec-2021 14:17:15 Asia/Dhaka] User error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.UserID' in 'on clause' in C:\xampp\htdocs\sPHP\library\object\database.php on line 197
